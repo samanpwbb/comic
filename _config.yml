@@ -1,4 +1,5 @@
 name: Comic
-baseurl:
+baseurl: /comic
+permalink: /:categories/:title
 markdown: redcarpet
 pygments: true
