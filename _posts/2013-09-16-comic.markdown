@@ -1,0 +1,8 @@
+---
+layout: default
+title:  "pages"
+date:   2013-09-16 23:09:09
+pages: 1
+---
+
+![](/pages/computer-crash.jpg)

@@ -1,0 +1,25 @@
+---
+layout: default
+title: A Comic
+---
+
+<div class='contain'>
+  <h1>{{ page.title }}</h1>
+</div>
+<ul class="posts">
+  {% for post in site.posts %}
+    <div>{{ post.content }}</div>
+  {% endfor %}
+</ul>
+  <div class='contain footer'>
+    <h2>Rules:</h2>
+    <ol>
+      <li>1. <a href='https://github.com/samanpwbb/comic/fork'>Fork the repo</a>.</li>
+      <li>2. Add an image to the <a href='https://github.com/samanpwbb/comic/blob/gh-pages/_posts/pages'>pages/ directory</a>.</li>
+      <li>3. Add a reference to your image in <a href='https://github.com/samanpwbb/comic/blob/gh-pages/_posts/2013-09-16-welcome-to-jekyll.markdown'>_posts/2013-09-16-pages.markdown</a>.</li>
+      <li>4. Break rules 2 & 3.</li>
+      <li>5. Submit a pull request back to this comic which lives at <a href='https://github.com/samanpwbb/comic'>https://github.com/samanpwbb/comic</a>.</li>
+      <li>6. <a href='https://github.com/samanpwbb/comic/commits/gh-pages'>Watch the history</a> to see the comic evolve.</li>
+      <li>Confused? <a href='https://help.github.com/'>Learn about GitHUb</a>. If you have questions, email me at <a href="mailto:samanpwbb@gmail.com">samanpwbb@gmail.com</a>.
+    </ol>
+  </div>
