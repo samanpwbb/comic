@@ -5,4 +5,4 @@ date:   2013-09-16 23:09:09
 pages: 1
 ---
 
-![](/pages/computer-crash.jpg)
+![]({{site.baseurl}}/pages/computer-crash.jpg)
